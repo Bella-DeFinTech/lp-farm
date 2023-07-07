@@ -1,0 +1,21 @@
+{
+    "token0": "${token symbol}",
+    "token1": "${token symbol}",
+    "fee": "${fee}",
+    "rewardInfos": [
+        {
+            "rewardToken": "${token symbol}",
+            "provider": "${provider address}",
+            "rewardPerSecond": "${rewards per second}"
+        }
+    ],
+    "startTime": "${start time}",
+    "endTime": "${end time}",
+    "pcLeftScale": "${number < 1}",
+    "pcRightScale": "${number > 1}",
+    "boost": "${`true` or `false`}",
+    "feeChargePercent": "${number 0~100}",
+    "chargeReceiver": "${charge receiver address}",
+    "realDeploy": "${`true` or `false`}",
+    "useOriginLiquidity": "${`true` or `false`}"
+}
