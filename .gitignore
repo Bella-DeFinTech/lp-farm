@@ -1,4 +1,5 @@
 node_modules/*
+zksync/.secret*
 .secret*
 package-lock.json
 yarn.lock
